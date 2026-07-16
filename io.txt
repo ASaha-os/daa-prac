@@ -1,0 +1,138 @@
+Fractional Knapsack
+Plaintext
+[Input]
+Enter number of items and Knapsack capacity: 3 50
+Enter value and weight for each item:
+60 10
+100 20
+120 30
+
+[Output]
+Maximum value in Knapsack = 240.00
+
+[Input]
+Enter number of jobs: 5
+Enter Job ID (char), Deadline, and Profit:
+a 2 100
+b 1 19
+c 2 27
+d 1 25
+e 3 15
+
+[Output]
+Scheduled Job Sequence: c a e 
+Total Profit: 142
+
+Dijkstra's Algorithm
+Plaintext
+[Input]
+Enter number of vertices: 5
+Enter cost adjacency matrix (Use 9999 for Infinity):
+0 4 2 9999 9999
+4 0 3 2 3
+2 3 0 6 9999
+9999 2 6 0 2
+9999 3 9999 2 0
+Enter starting node index (0 to 4): 0
+
+[Output]
+Shortest distances from source node 0:
+To node 0: 0
+To node 1: 4
+To node 2: 2
+To node 3: 6
+To node 4: 7
+
+Bellman-Ford Algorithm
+Plaintext
+[Input]
+Enter number of vertices and edges: 5 8
+Enter source, destination, and weight for each edge:
+0 1 -1
+0 2 4
+1 2 3
+1 3 2
+1 4 2
+3 2 5
+3 1 1
+4 3 -3
+Enter source vertex index: 0
+
+[Output]
+Vertex Distance from Source:
+0 		 0
+1 		 -1
+2 		 2
+3 		 -2
+4 		 1
+
+Matrix Chain Multiplication
+Plaintext
+[Input]
+Enter number of matrices + 1 (size of dimensions array): 4
+Enter the dimensions array:
+10 20 30 40
+
+[Output]
+Minimum number of multiplications is 18000
+
+Floyd-Warshall (All Pairs Shortest Path)
+Plaintext
+[Input]
+Enter number of vertices: 4
+Enter adjacency matrix (Use 9999 for INF, 0 for self paths):
+0 5 9999 10
+9999 0 3 9999
+9999 9999 0 1
+9999 9999 9999 0
+
+[Output]
+Shortest path matrix between all pairs:
+0   5   8   9   
+INF 0   3   4   
+INF INF 0   1   
+INF INF INF 0
+
+0/1 Knapsack
+Plaintext
+[Input]
+Enter number of items and maximum capacity: 3 50
+Enter values of items:
+60 100 120
+Enter weights of items:
+10 20 30
+
+[Output]
+Max value that can be put in knapsack: 220
+
+Graph Coloring Problem
+Plaintext
+[Input]
+Enter number of vertices: 4
+Enter Adjacency Matrix (0 or 1):
+0 1 1 1
+1 0 1 0
+1 1 0 1
+1 0 1 0
+Enter number of colors: 3
+
+[Output]
+Solution exists. Assigned Colors are:
+Vertex 0 -> Color 1
+Vertex 1 -> Color 2
+Vertex 2 -> Color 3
+Vertex 3 -> Color 2
+
+Hamiltonian Cycle
+Plaintext
+[Input]
+Enter number of vertices: 5
+Enter Adjacency Matrix (0 or 1):
+0 1 0 1 0
+1 0 1 1 1
+0 1 0 0 1
+1 1 0 0 1
+0 1 1 1 0
+
+[Output]
+Hamiltonian Cycle exists: 0 -> 1 -> 2 -> 4 -> 3 -> 0
